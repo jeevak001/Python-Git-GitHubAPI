@@ -55,5 +55,5 @@ class Github(object):
             repos = self.list_repos()
 
 
-jeeva = Github("","")
-jeeva.remove_repos()
+user = Github("USERNAME","PASSWORD")
+user.remove_repos()
